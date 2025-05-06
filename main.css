@@ -1,0 +1,40 @@
+/**** calculator body ****/
+
+.calculator-container{
+  border-radius: 5px;
+  background-color: #50545d;
+  width: 30%;
+}
+
+body {
+ display: flex;
+ justify-content: center;
+ background-image: linear-gradient(to bottom right, #87ceeb, #ffc0cb);
+ background-repeat: no-repeat;
+}
+
+header {
+  margin: 15px 0px 15px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  background-color: #cccccc;
+  box-shadow: inset 0px 1px 7px 1px grey;
+  border: none;
+  width: 70%;
+  height: 30px;
+}
+
+/*** calculator main ***/
+
+main {
+  padding: 15px;
+}
+
+.number-btns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
