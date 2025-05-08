@@ -1,22 +1,32 @@
 const currentdisplay = document.getElementById('display');
-const numberBtns = document.querySelectorAll('.number-btns')
+const numberBtns = document.querySelectorAll('.number-btns');
+
+
+
 
 function displayOutput() {
-  const displayInput = '';
-  display.value += displayInput;
+  if(  display.value == 0) {
+    display.value = 
+  } else {
+    display
+  }
 }
 
-function numberInput() {
-  for (const buttons of numberBtns) {
-    numberBtns.addEventListener('click', function(){
-      display.value += buttons.textContent;
+function numInput() {
+  for (const button of numberBtns) {
+    button.addEventListener('click', function(){
+      displayOutput(button.textContent)
     })
   }
 }
 
-numberInput()
+// displayOutput()
 
-displayOutput()
+
+
+
+
+
 
 
 
